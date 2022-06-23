@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Button</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+        .btn__checkout{
+            display: inline-block;
+            padding:7px;
+            position: relative;
+            border-radius: 19px;
+            border: 2px solid rgb(152, 152, 152);
+            box-shadow: 0 2px 6px #999;
+            background-color: #8b8b8b;
+        }
+        .checkout {
+            background: linear-gradient(to bottom, #e1e1e1, #b6b6b6);
+            border-radius: 10px;
+            box-shadow: 0 .5px 2px #616161, 0 1.5px 3px gray, 0 0 0px 6px #cbcbcb;
+            color: #555555;
+            position: relative;
+            text-transform: uppercase;
+            text-shadow: 0 1px #dedede;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+            padding: 15px 56px;
+            border-color:#ccc;
+            letter-spacing: -1px;
+        }
+        .checkout span{
+            position: relative;
+        }
+        .checkout span i{
+            color:rgb(133, 133, 133);
+        }
+        .checkout span:nth-of-type(2){
+            left: 15%;
+        }
+        .checkout span:nth-of-type(1){
+            right: 15%;
+        }
+    </style>
+</head>
+<body>
+    <div class="btn__checkout">
+        <button class="checkout">
+            <span>
+                <i class="fa-solid fa-star"></i>
+            </span>
+            Checkout
+            <span>
+                <i class="fa-solid fa-star"></i>
+            </span>
+        </button>
+    </div>
+</body>
+</html>
